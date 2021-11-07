@@ -20,22 +20,23 @@ Mid Semester Project - Cross platform Mobile Development
 3. Xây dựng ứng dụng đầu tiên (slide B2)
 
 4. xây dựng các đối tượng giao diện (slide B3)
-
+- 
 - các đối tượng xây dựng gia diện
 - Các layout cơ bản (stack,Grid,Flex )
 - Demo vài ví dụ
 
-5. Các điều khiển (controls) cơ bản (slide b4)
+5. Các điều khiển (controls) cơ bản (slide b4) ( Lợi)
    Điều khiển hiển thị dữ liệu
-
+- Component.
 - Label, Entry(nhập data),..
   Điều khiển nút lệnh
 - Button, switch , Step,..
   Điều khiển ngày giờ
 - datepicker, timepicker
 
-6. Collections view (slide b5)
-
-- listview, picker, table views
-
+6. Collections view (slide b5) (Hưng)
+- Style
+- listview, picker, table views, Scroll
+- Navigation
+- ...
 ===/--- Tạm thời làm tới đây, tuần sau học xong DB r tính tiếp nha ae
