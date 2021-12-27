@@ -40,5 +40,12 @@ Mid Semester Project - Cross platform Mobile Development
 - Style
 - listview, picker, table views, Scroll
 - Navigation
-- ...
-  ===/--- Tạm thời làm tới đây, tuần sau học xong DB r tính tiếp nha ae
+- Các thư viện UI phổ biến khác.
+### 7. Giao tiếp với server 
+- Networking: Fetch, XMLHttpRequest, web socket
+- flux
+- redux
+- Debug react native
+- Testing
+- 
+
