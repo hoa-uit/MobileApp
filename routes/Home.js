@@ -1,13 +1,16 @@
 import * as React from "react";
-import {
-  View,
-  Text,
-  Button,
-  Image,
-  StyleSheet,
-  FlatList,
-  Pressable,
-} from "react-native";
+import { View, Text, Button, Image, StyleSheet, Pressable } from "react-native";
+
+const Navbtn = ({ navigation, screenName }) => {
+  return (
+    <Pressable
+      style={styles.btn}
+      onPress={() => navigation.navigate(screenName)}
+    >
+      <Text style={styles.btnText}>{`Go to ${screenName}`}</Text>
+    </Pressable>
+  );
+};
 
 const Home = ({ navigation }) => {
   return (
@@ -17,24 +20,9 @@ const Home = ({ navigation }) => {
         style={{ width: "100%", height: 300 }}
       />
       <View style={styles.btnContainer}>
-        <Pressable
-          style={styles.btn}
-          onPress={() => navigation.navigate("TakeNote")}
-        >
-          <Text style={styles.btnText}>Take Note</Text>
-        </Pressable>
-        <Pressable
-          style={styles.btn}
-          onPress={() => navigation.navigate("List")}
-        >
-          <Text style={styles.btnText}>FlatList</Text>
-        </Pressable>
-        <Pressable
-          style={styles.btn}
-          onPress={() => navigation.navigate("TakeNote")}
-        >
-          <Text style={styles.btnText}>Take Note</Text>
-        </Pressable>
+        <Navbtn screenName={"TakeNote"} navigation={navigation}></Navbtn>
+        <Navbtn screenName={"List"} navigation={navigation}></Navbtn>
+        <Navbtn screenName={"SectionList"} navigation={navigation}></Navbtn>
       </View>
     </View>
   );

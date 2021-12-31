@@ -4,6 +4,7 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import Home from "./routes/Home";
 import TakeNote from "./routes/TakeNote";
 import List from "./routes/FlatList";
+import SectionListBasic from "./routes/SectionList";
 
 const Stack = createNativeStackNavigator();
 export default function App() {
@@ -13,6 +14,7 @@ export default function App() {
         <Stack.Screen name="Home" component={Home} />
         <Stack.Screen name="TakeNote" component={TakeNote} />
         <Stack.Screen name="List" component={List} />
+        <Stack.Screen name="SectionList" component={SectionListBasic} />
       </Stack.Navigator>
     </NavigationContainer>
   );
